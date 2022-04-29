@@ -24,6 +24,8 @@ To run the program and generate output run the following line from the SWI-Prolo
 run.
 ```
 
+To observe an example where no goals fail, run the program in branch **main**. To observe an example where an integral goal fails, run the program in branch **failure-example**. See below for more details.
+
 ---
 ## Success & Failure Examples
 
