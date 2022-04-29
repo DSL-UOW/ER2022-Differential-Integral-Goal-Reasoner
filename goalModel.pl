@@ -182,8 +182,8 @@ inst(p6,probe,"Alert raised by IDS").
 % Services shall be available for no less than 1425 min in any 24hr
 % interval (i.e., 99%)
 % 
-stateVar(g1,servicesAvailable,1). %#TODO: Update reasoner to allow for this one
-start(g1,0). %#TODO: Update to allow for -inf
+stateVar(g1,servicesAvailable,1).
+start(g1,0).
 finish(g1,inf).
 intervalSize(g1,1440).
 atLeast(g1,285). % at least 285/288 states the service is available
@@ -199,10 +199,10 @@ frequency(g1,5).
 stateVar(g2,podAllocationEvent,0).
 start(g2,0).
 finish(g2,inf).
-intervalSize(g2,1440). %#TODO: Update reasoner to work with this=inf
-atLeast(g2,3).  % #TODO: check this is valid, need at least 3 pod allocation events
+intervalSize(g2,1440).
+atLeast(g2,3).
 atMost(g2,8).
-frequency(g2,inf).  %#TODO: check freq=inf works as expected
+frequency(g2,inf).
 
 % G3: Limit resource change DIFFERENTIAL
 % 
@@ -228,7 +228,7 @@ start(g8_1,0).
 finish(g8_1,inf).
 intervalSize(g8_1,5).
 atLeast(g8_1,0).
-atMost(g8_1,0.2). %#TODO: VERIFY: 1 or 1/5min = 0.2
+atMost(g8_1,0.2).
 frequency(g8_1,5).
 
 % ********** GOAL STATUSES & CONTEXTS **********
