@@ -18,12 +18,12 @@ at(podAllocationEvent,770).
 
 % state histories for G1: Service Availability
 
-at(servicesAvailable(1),0).
-at(servicesAvailable(1),5).
-at(servicesAvailable(1),10).
-at(servicesAvailable(1),15).
-at(servicesAvailable(1),20).
-at(servicesAvailable(1),25).
+at(servicesAvailable(0),0).
+at(servicesAvailable(0),5).
+at(servicesAvailable(0),10).
+at(servicesAvailable(0),15).
+at(servicesAvailable(0),20).
+at(servicesAvailable(0),25).
 at(servicesAvailable(1),30).
 at(servicesAvailable(1),35).
 at(servicesAvailable(1),40).
