@@ -18,10 +18,10 @@ To load the program run the following line from the command line:
 swipl goalReasoner.pl
 ```
 
-To run the program and generate output run the following line from the SWI-Prolog prompt:
+To run the program and generate output run the following query in SWI-Prolog prompt immediately after loading the program:
 
 ```prolog
-run.
+?- run.
 ```
 
 To observe an example where no goals fail, run the program in branch **main**. To observe an example where an integral goal fails, run the program in branch **failure-example**. See below for more details.
