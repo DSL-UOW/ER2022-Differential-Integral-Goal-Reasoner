@@ -186,7 +186,7 @@ stateVar(g1,servicesAvailable,1).
 start(g1,0).
 finish(g1,inf).
 intervalSize(g1,1440).
-atLeast(g1,285). % at least 285/288 states the service is available
+atLeast(g1,285).
 atMost(g1,inf).
 frequency(g1,5).
 
