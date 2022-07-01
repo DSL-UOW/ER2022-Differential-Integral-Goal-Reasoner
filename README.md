@@ -1,8 +1,14 @@
 # Goal Reasoning using rates of change and aggregation
 
-This repository contains the implementation and [**technical report**](https://github.com/DSL-UOW/ER2022-Differential-Integral-Goal-Reasoner/blob/main/Technical%20Report.pdf) for our submission to ER 2022 : 41st International Conference on Conceptual Modeling
+This repository contains the implementation for our paper entitled _Modeling Rates of Change and Aggregations in Runtime Goal Models_, which has been accepted for presentation in ER 2022 : 41st International Conference on Conceptual Modeling (citation below).
 
-**Submission Citation:** _Morgan, R., Pulawski, S., Selway, M., Mayer, W., Grossmann, G., Stumptner M., Ghose, A., Kyprianou, R.: Modeling rates of change and aggregations in runtime Goal Models. 41st International Conference on Conceptual Modeling (ER 2022)_ 
+The research presented in our publication, and the implementation supplied in this repository, forms part of the Advanced Integrated Modelling Environment (AIME) project. The AIME project aims to deliver self-integrating architectures to enable agile C2 information systems for the Defence Science and Technology Group (DSTG). AIME is a collaboration between the University of South Australia (UniSA) and the University of Wollongong (UOW).
+
+**Acknowledgements:**
+This research is supported by the Commonwealth of Australia as represented by the Defence Science and Technology Group of the Department of Defence and the Defence Artificial Intelligence Research Network (DAIRNet), an initiative of the Department of Defence and the Next Generation Technologies Fund (NGTF).
+
+**Citation:**
+_Morgan, R., Pulawski, S., Selway, M., Mayer, W., Grossmann, G., Stumptner M., Ghose, A., Kyprianou, R.: Modeling Rates of Change and Aggregations in Runtime Goal Models. 41st International Conference on Conceptual Modeling (ER 2022)_ 
 
 ---
 
